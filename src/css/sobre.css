@@ -15,3 +15,13 @@ p{
     text-align: center;
 }
 
+.bntVoltar button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #e2f700;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
