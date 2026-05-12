@@ -22,3 +22,19 @@ const produtos = [
     
 ];
 const secaoProdutos = document.getElementById("produtos");
+
+produtos.forEach(produtos =>{
+
+    const card =document.createElement("div");
+    card.classList.add("card");
+
+    card.innerHTML = `
+        <img src="${produtos.imagem}" alt="${produtos.nome}">
+        <h2>${produtos.nome}</h2>
+        <p>R$ ${produtos.preco}</p>
+
+    `;
+
+    secaoProdutos.appendChild(card);
+        
+});
