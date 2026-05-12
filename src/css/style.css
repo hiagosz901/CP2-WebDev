@@ -3,12 +3,22 @@ body {
     background-color: #111;
     color: white;
     padding: 20px;
+    
+}
+
+h1{
+    text-align: center;
+    color: rgb(238, 255, 3);
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 #produtos {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card {
@@ -32,3 +42,48 @@ body {
     color: lime;
     font-weight: bold;
 }
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.botoes button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #e2f700;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btnCarrinho {
+    background: linear-gradient(135deg, #5af62a, #58f231);
+    color: #F5F5F5;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s ease;
+    width: 100%;
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgba(73, 42, 246, 0.5);
+}
+
+.btnCarrinho:hover {
+    transform: translateY(-3px);
+    background: linear-gradient(135deg, #deee05, #e5ff00);
+    box-shadow: 0 0 20px rgba(229, 255, 0, 0.8);
+}
+
+.btnCarrinho:active {
+    transform: scale(0.97);
+}
+
+

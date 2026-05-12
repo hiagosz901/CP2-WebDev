@@ -35,7 +35,7 @@ produtos.forEach(produto => {
         <p>R$ ${produto.preco}</p>
 
         <button class="btnCarrinho">
-            Adicionar ao Carrinho
+            comprar
         </button>
     `;
 
